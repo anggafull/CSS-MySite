@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #11999E;
+}
+
+hr {
+  border-top: 8px dotted #EAF6F6;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  width: 5%
+}
+
+.skill-row {
+  width: 50%;
+  margin : 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-container {
+  padding: 100px;
+  position: relative;
+  background-color: #EAF6F6;
+}
+
+.middle-container {
+  position: relative;
+}
+
+.bottom-container {
+  line-height: 2;
+}
+
+.profile-img {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 20px;
+}
+
+.skill-img1 {
+  border-radius: 50px;
+  height: 25%;
+  width: 25%;
+  position: relative;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img2 {
+  border-radius: 50px;
+  height: 25%;
+  width: 25%;
+  position: relative;
+  float: right;
+  margin-left : 30px;
+}
+
+.top-cloud {
+position: absolute;
+right: 18.75%;
+top: 3.125%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 18.75%;
+  bottom: 18.75%;
+}
+
+.contact-me {
+  width: 50%;
+  margin : 100px auto 100px auto;
+  line-height: 2;
+}
+
+.btn {
+  background: #20d3d6;
+  background-image: -webkit-linear-gradient(top, #20d3d6, #11999E);
+  background-image: -moz-linear-gradient(top, #20d3d6, #11999E);
+  background-image: -ms-linear-gradient(top, #20d3d6, #11999E);
+  background-image: -o-linear-gradient(top, #20d3d6, #11999E);
+  background-image: linear-gradient(to bottom, #20d3d6, #11999E);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #66BFBF;
+  text-decoration: none;
+}
+
+.bottom-container {
+  padding: 40px;
+  position: relative;
+  background-color: #66BFBF;
+}
+ .footer-link {
+   color: #11999E;
+   text-decoration: none;
+   margin : 20px 20px 20px 20px;
+ }
+
+ .footer {
+    color: white;
+    font-size: 0.75em;
+    margin : 20px 20px 20px 20px;
+ }
